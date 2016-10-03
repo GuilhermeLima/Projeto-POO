@@ -1,4 +1,4 @@
-class $[name_class]{
+class $[nome_classe]{
 
 	constructor(teste, teste2){
 		this.a = teste;

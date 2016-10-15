@@ -85,7 +85,7 @@ Função que criara  arquivo utiizando o seu arquivo layout e trocando as variavei
 int ArquivosFontes::criarArquivo(){
 	string arquivo = getNomeInteiro(), linhas, layout = "layout/layout." + getExtensao();
 	
-	string arquivoo = ".\\codFiles\\" + getNome() + "." + getExtensao();
+	string arquivoo = ".\\codFiles\\" + getNome() + "." + getExtensao();//Concatena nome do arquivo com a extensão + local a ser arazenado
 
 
 	ofstream novoArquivo; // instancia da classe ofstream para manipular arquivos

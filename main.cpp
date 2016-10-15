@@ -27,7 +27,7 @@ int main(int argc, char** argv) {
 
 	Menu mn("Escolha um conceito: ");
 	string menu_geral[4] = {"  ", "(1) Classe", "  ", "(2) Construtor"};
-	string menu_classe[4] = {"(1) Javascript", "(2) Python", "(3) C++", "ola que tal"};
+	string menu_classe[4] = {"(1) Javascript", "(2) Python", "(3) C++"};
 
 	mn.setItens(menu_geral);
 	mn.setSubItens(1, menu_classe);
@@ -56,7 +56,7 @@ int main(int argc, char** argv) {
 					linguagem = "js";
 				break;
 				default:
-					linguagem = "js";
+					linguagem = "cpp";
 			}
 			
 			criarClasse(nomeClasse, linguagem);

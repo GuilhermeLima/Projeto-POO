@@ -7,6 +7,7 @@
 Autores: Guilherme Lima Santos -> 22215016-1
 		 Gustavo Andretta Piedade -> 22115010-5
 		 Rafael Serikaku -> 22215036-9
+		 Fernando Frezza do Prado -> 22215018-7
 */
 
 using namespace std;
